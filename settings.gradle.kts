@@ -1,1 +1,1 @@
-rootProject.name = "env_kotlin_user"
+rootProject.name = "env_kotlin_auth"
