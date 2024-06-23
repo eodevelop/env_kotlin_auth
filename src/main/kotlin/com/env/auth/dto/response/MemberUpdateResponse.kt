@@ -6,9 +6,9 @@ import io.swagger.v3.oas.annotations.media.Schema
 data class MemberUpdateResponse(
     @Schema(description = "회원 정보 수정 성공 여부", example = "true")
     val result: Boolean,
-    @Schema(description = "회원 이름", example = "콜라곰")
+    @Schema(description = "회원 이름", example = "user")
     val name: String?,
-    @Schema(description = "회원 나이", example = "27")
+    @Schema(description = "회원 나이", example = "11")
     val age: Int?
 ) {
     companion object {

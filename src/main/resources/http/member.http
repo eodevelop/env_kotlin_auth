@@ -1,0 +1,4 @@
+### USER 개인정보 조회 API
+GET http://localhost:8080/member
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5NmEyMTc0Yy0wYTRmLTQ0MzEtODNhZi0wZTgwNmVlMzMzMGM6VVNFUiIsImlzcyI6InRlc3R1c2VyIiwiaWF0IjoxNzE5MTQwOTcyLCJleHAiOjE3MTkxNDQ1NzJ9.CE-5BqNms_qz-hy5St_qswV5dX35ZISBBEBt_Bw3meo

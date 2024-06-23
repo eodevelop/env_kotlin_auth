@@ -1,4 +1,24 @@
-### 로그인 API
+### USER 회원가입 API
+POST http://localhost:8080/sign-up
+Content-Type: application/json
+
+{
+  "account": "user",
+  "password": "user",
+  "name": "user",
+  "age": 10
+}
+
+### USER 로그인 API
+POST http://localhost:8080/sign-in
+Content-Type: application/json
+
+{
+  "account": "user",
+  "password": "user"
+}
+
+### ADMIN 로그인 API
 POST http://localhost:8080/sign-in
 Content-Type: application/json
 
